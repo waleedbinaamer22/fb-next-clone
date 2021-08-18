@@ -3,8 +3,9 @@ module.exports = {
   images:{
     domains:[
       "links.papareact.com",
-      "platfrom-lookaside.fbsdx.com",
       "firebasestorage.googleapis.com",
+      "platfrom-lookaside.fbsdx.com",
+      "cms.mul.edu.pk",
     ],
   }
 }

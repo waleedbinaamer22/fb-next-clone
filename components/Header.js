@@ -49,9 +49,11 @@ function Header() {
             {/* Header Right */}
             <div className='flex items-center sm:space-x-2 justify-end'>
                 {/* Profile Pic  */}
-
-
-                <p className="whitespace-nowrap font-semibold pr-3" > Waleed Bin Aamer </p>
+                <div className="rounded-full flex space-x-2 align-middle items-center hover:bg-gray-300">
+                    <Image src="https://cms.mul.edu.pk/images/default.png" className="rounded-full"  width={30} height={30} />
+                    <p className="whitespace-nowrap md:hidden lg:block font-semibold pr-3" > Waleed</p>
+                </div>
+                
 
                 <ViewGridIcon className="icon"/>
                 <ChatIcon className="icon"/>
