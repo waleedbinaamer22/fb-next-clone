@@ -13,6 +13,7 @@ function Post({name,message,email,timestamp,image,postImage}) {
                     src={image} 
                     width={40} 
                     height={40} 
+                    layout="fixed"
                 />
                 <div>
                     <p className="font-medium">{name}</p>
