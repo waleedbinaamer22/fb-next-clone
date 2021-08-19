@@ -21,7 +21,7 @@ import {
 
 function Header() {
     return (
-        <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
+        <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 max-h-[8vh] h-[8vh] md:max-h-[10vh] md:h-[10vh] lg:max-h-[8vh] lg:h-[8vh] shadow-md">
             {/* Header Left */}
             <div className="flex items-center">
                 <Image 

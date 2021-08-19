@@ -1,4 +1,3 @@
-
 import Head     from 'next/head'
 import Header   from '../components/Header'
 import Sidebar  from '../components/Sidebar'
@@ -19,17 +18,21 @@ export default function Home({posts}) {
       </Head>
 
       <Header/>
-
+      
       <main className="flex bg-gray-100">
-        {/* <Sidebar/> */}
-        <Sidebar/>
+          {/* <Sidebar/> */}
+          <Sidebar/>
 
-        {/* <Feed/> */}
-        <Feed posts={posts}/>
-        {/*  <Widgets/> */}
-         <Widgets/>
-      </main>
+          {/* <Feed/> */}
+          <Feed posts={posts}/>
+          {/*  <Widgets/> */}
+          <Widgets/>
+        </main>
+        
+      
     </div>
+    
+    
   )
 }
 
