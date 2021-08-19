@@ -1,9 +1,9 @@
 import StoryCard from './StoryCard'
 const stories = [
     {
-        name: "Sonny Sanagha",
-        src: "https://links.papareact.com/zof",
-        profile: "https://links.papareact.com/l4v",
+        name: "Waleed Bin Aamer",
+        src: "/my_image.jpg",
+        profile: "/my_image.jpg",
     },
     {
         name: "Elon Musk",

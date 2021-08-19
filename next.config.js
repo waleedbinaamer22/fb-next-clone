@@ -6,6 +6,7 @@ module.exports = {
       "firebasestorage.googleapis.com",
       "platfrom-lookaside.fbsdx.com",
       "cms.mul.edu.pk",
+      "photos.app.goo.gl",
     ],
   }
 }

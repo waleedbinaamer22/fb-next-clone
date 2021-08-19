@@ -4,7 +4,7 @@ import {CameraIcon,VideoCameraIcon} from '@heroicons/react/solid'
 import {useRef,useState} from 'react'
 import {db,storage} from '../firebase'
 import firebase from 'firebase'
-import { div } from 'prelude-ls'
+
 
 
 
@@ -79,7 +79,7 @@ function InputBox() {
             <div className='flex space-x-4 p-4 items-center'>
                 <Image
                     className="rounded-full"
-                    src="https://links.papareact.com/zof"
+                    src="/my_image.jpg"
                     width={40}
                     height={40}
                     layout="fixed"

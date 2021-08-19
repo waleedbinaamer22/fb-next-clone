@@ -3,7 +3,7 @@ import {DotsHorizontalIcon,VideoCameraIcon} from '@heroicons/react/solid'
 import Contact from './Contact'
 const contacts = [
     // {src:'', name: 'Jeff Bezoz'},
-    {src:'https://cms.mul.edu.pk/images/default.png', name: 'Waleed'},
+    {src:'/my_image.jpg', name: 'Waleed'},
 ]
 
 function Widgets() {
