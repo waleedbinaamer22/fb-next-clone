@@ -17,7 +17,7 @@ import {
 
 function Sidebar() {
     return (
-        <div className='p-2 max-w-[600px] xl:min-w-[300px]'>
+        <div className='p-2 hidden sm:block max-w-[600px] xl:min-w-[300px]'>
             <SidebarRow src="https://cms.mul.edu.pk/images/default.png" title="Waleed Bin Aamer"/>
             <SidebarRow Icon={UsersIcon} title="Friends"/>
             <SidebarRow Icon={UserGroupIcon} title="Groups"/>

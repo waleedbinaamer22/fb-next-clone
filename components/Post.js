@@ -16,9 +16,17 @@ function Post({name,message,email,timestamp,image,postImage}) {
                 />
                 <div>
                     <p className="font-medium">{name}</p>
-                    <p className="text-xs text-gray-400">
-                        { new Date(timestamp?.toDate()).toLocaleString() }
-                    </p>
+                    {timestamp
+                    ? (
+                        <p className="text-xs text-gray-400">
+                            { new Date(timestamp?.toDate()).toLocaleString() }
+                        </p>
+                    )
+                    : (
+                        <p className='text-xs text-gray-400'> Loading </p>
+
+                    )}
+                    
                 </div>
             </div> 
             <p className="pt-4">{message}</p>
@@ -43,11 +51,11 @@ function Post({name,message,email,timestamp,image,postImage}) {
                 </div>
                 <div className='inputIcon rounded-none'>
                     <ChatIcon className='h-4'/>
-                    <p className="text-xs sm:text-base">Like</p>
+                    <p className="text-xs sm:text-base">Comment</p>
                 </div>
                 <div className='inputIcon rounded-none rounded-br-2xl'>
                     <ShareIcon className='h-4'/>
-                    <p className="text-xs sm:text-base">Like</p>
+                    <p className="text-xs sm:text-base">Share</p>
                 </div>
 
             </div>
