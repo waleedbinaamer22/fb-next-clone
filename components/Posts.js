@@ -7,7 +7,7 @@ function Posts({posts}) {
         db.collection('posts').orderBy('timestamp', 'desc')
     );
     return (
-        <div>
+        <div className='mx-auto'>
             { realtimePosts 
             ? realtimePosts?.docs.map(post => (
                 <Post 
