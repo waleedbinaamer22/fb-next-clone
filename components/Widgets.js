@@ -18,7 +18,7 @@ function Widgets() {
                 </div>
             </div>
             {contacts.map((contact) =>(
-                 <Contact src={contact.src} name={contact.name}/>
+                 <Contact key={contact.name} src={contact.src} name={contact.name}/>
             ))}
         </div>
     )
