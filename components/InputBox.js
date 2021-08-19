@@ -28,7 +28,7 @@ function InputBox() {
             message: inputRef.current.value,
             name: 'Waleed',
             email:'waleedbinaamer22@gmail.com',
-            image:'https://cms.mul.edu.pk/images/default.png',
+            image:'/my_image.jpg',
             timestamp: firebase.firestore.FieldValue.serverTimestamp()
         }).then( doc =>{
             if(imageToPost){
